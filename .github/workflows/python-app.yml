@@ -34,4 +34,4 @@ jobs:
     - name: Test print1
       run: echo "Hello World!"
     - name: Test print2
-      run: print("Testing ... one ... two .... three ...")
+      run: python3 print("Testing ... one ... two .... three ...")
