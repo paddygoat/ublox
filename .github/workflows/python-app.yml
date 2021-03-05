@@ -34,3 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Test print
+      run: |
+        print("Testing ... one ... two .... three ...")
